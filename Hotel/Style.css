@@ -1,0 +1,208 @@
+body{
+    --bs-body-bg: rgb(202, 235, 255);
+}
+@font-face{
+    font-family: 'Neptune';
+    src: url(allura_[fr.allfont.net].ttf);
+}
+@font-face{
+    font-family: 'Bienvenue';
+    src: url(Amerigo\ Md\ BT\ Medium.ttf);
+}
+@media (min-width: 600px) {
+    #alignement {      
+       flex-direction: row;   
+   }
+}
+@media (min-width: 600px) {
+    #alignement {      
+       width: 500px;   
+   }
+}
+.content
+{
+ display: flexbox;
+ margin: 1rem 1rem 1rem 1rem;
+}
+
+.Neptune{
+    font-family: 'Neptune', serif;
+    font-size: 55px;
+    text-shadow: 0.5rem 0.5rem 1rem #0b0d1ab2;
+    color: rgb(15, 15, 97);
+}
+
+.text{
+    font-size: 20px;
+}
+.resbox{
+    font-size: 20px;
+    color: #26348b;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(34, 159, 237, 0.5);
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem #0b0d1ab2;
+    text-align: center;
+    padding: 0.5rem;
+}
+.bannière{
+    font-family: 'Neptune', serif;
+    font-size: 70px;
+    color: rgb(34, 159, 237, 0.8);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.image{
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+}
+.imagechambre{
+    justify-content: center;
+    display: flex;
+}
+.milieu {
+    display: flexbox;
+    justify-content: center;
+  }
+.reserve {
+    font-family: 'Neptune';
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: 0.25rem 0.25rem 0.5rem #0b0d1ab2;
+  }
+.end{
+    display: flexbox;
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+    margin-top: 0.25rem;
+    display: flexbox;
+}
+.champ{
+    width: 8rem;
+    height: 25px;
+    font-size: 15px;
+}
+.champ1{
+    width: 10rem;
+    height: 30px;
+    font-size: 15px;
+}
+.sans{
+    text-decoration: none;
+}
+.welcome{
+    justify-content: center;
+    font-family: 'Bienvenue';
+    margin-left: 34rem;
+    color: rgb(0, 110, 255);
+    text-shadow: 0.5rem 0.5rem 1rem #051475b2;
+    font-size: 25px;
+
+}
+.ugly{
+    text-decoration: none;
+    text-shadow: 0.5rem 0.5rem 0.5rem #000000;
+    color: aqua;
+}
+.BoxRésérvations{
+    margin: 5rem 5rem 5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flexbox;
+    align-items: center;
+    margin: 0.5rem 5rem 0 5rem;
+    background-color: rgb(34, 159, 237, 0.5);
+    padding: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #0b0d1ab2;
+}
+.past{
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flexbox;
+    align-items: center;
+    margin: 0.5rem 5rem 0 5rem;
+    background-color: rgba(134, 38, 62, 0.5);
+    padding: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #0b0d1ab2;
+}
+.boxinside
+{
+    margin-left: 4rem;
+}
+.dates
+{
+    font-size: 15px;
+}
+.personnes
+{
+    font-size: 15px;
+}
+.photos
+{
+    width: 30rem;
+}
+
+.slide
+{
+    grid-auto-flow: row;
+    overflow-x: auto;
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    position: relative;
+    scroll-snap-type: x mandatory;
+}
+.slidecontent
+{
+    grid-auto-flow: row;
+}
+img.slidecontent  
+{
+    width: 800px;
+    height: 400px;
+}
+.slide-nav {
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+.slide-nav a {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(84, 91, 185, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(15, 6, 49, 0.3);
+    display: inline-block;
+    background-color: #4c5aaf;
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+  }
+
+  .slide-nav a:hover 
+  {
+    background-color: rgb(29, 20, 158);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(19, 5, 66, 0.8);
+    box-shadow: 0px 0px 5px 0px rgba(21, 5, 56, 0.8);
+  }
+  #img2:target .slider-content {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  #img3:target .slider-content {
+    -webkit-transform: translateX(-1600px);
+            transform: translateX(-1600px);
+  }
+  #img4:target .slider-content {
+    -webkit-transform: translateX(-2400px);
+            transform: translateX(-2400px);
+  }
+  #img5:target .slider-content {
+    -webkit-transform: translateX(-3200px);
+            transform: translateX(-3200px);
+  }
